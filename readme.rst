@@ -27,9 +27,8 @@ and a developer.
 
 The point of quality library is to provide links between documents.
 At some point I'll hope we could also link to the source code but
-let's make a step at time.
-   
-::
+let's make a step at time.::
+
      End user           Developer
 
      User manual <----> Architecture <--later--> source code
@@ -37,7 +36,7 @@ let's make a step at time.
 Links from user manual to architecture are provided simply to help end
 user adapt to the conceptual model. This is achieved when the user can
 study what actually happens under the hood. This helps on visibility
-of the product - an essential attribute consider by Norman norman_.
+of the product - an essential attribute consider by Norman [norman]_.
 
 The existence of user manual makes it easier to design the
 software. If things need to be considered from end user's point of
@@ -59,14 +58,16 @@ improvement" links after each section in the user manual or
 architecture specification or some other document. Aslo we can add
 backlinks, i.e. an information from where is this section linked from.
 
-* gh-pages/
-    * index.rst
-    * documents/
-        * tutorial.rst
-        * user_manual.rst
-        * architecture_spec.rst
-    * screenshots/
-    * bugs/
+::
+
+  gh-pages/
+    index.rst
+    documents/
+      tutorial.rst
+      user_manual.rst
+      architecture_spec.rst
+    screenshots/
+    bugs/
    
 
 
@@ -74,4 +75,4 @@ backlinks, i.e. an information from where is this section linked from.
 References
 ------------
 
-* _norman: Donald Norman, "The Design of Everyday Things", 1988.
+* [norman] Donald Norman, "The Design of Everyday Things", 1988.
